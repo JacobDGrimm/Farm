@@ -22,5 +22,9 @@ namespace ConsoleApp1
             Console.WriteLine("People often ask me, they say 'hey pig! What do you want to eat?' Well let me tell\n" +
                 "you that is the beauty of being a pig. I eat everything!");
         }
+        public void Move()
+        {
+            Console.WriteLine("Pigs mostly just lay around, but I guess if I had to I could walk around on my hooves.");
+        }
     }
 }
