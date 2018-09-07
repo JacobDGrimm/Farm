@@ -18,5 +18,9 @@ namespace ConsoleApp1
             Console.WriteLine("We horses produce lots, firstly we produce hope and dreams for little girls. Second\n" +
                 "we produce transportation for amish people. And finally we produce glue, you are welcome.");
         }
+        public void Eat()
+        {
+            Console.WriteLine("Horses like me eat a lot of hay, and when the farmer isn't looking we eat his hat");
+        }
     }
 }
