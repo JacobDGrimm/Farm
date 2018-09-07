@@ -10,6 +10,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            var MrEd = new Horse();
+            var ChickenJuan = new Chicken();
+            var CowBetsy = new Cow();
+            var PigBabe = new PIg();
+
+            MrEd.Speak("Mr Ed");
+            ChickenJuan.Speak();
+            CowBetsy.speak();
+            PigBabe.Speak();
         }
     }
 }
