@@ -16,15 +16,15 @@ namespace ConsoleApp1
         public void Produce()
         {
             Console.WriteLine("We horses produce lots, firstly we produce hope and dreams for little girls. Second\n" +
-                "we produce transportation for amish people. And finally we produce glue, you are welcome.");
+                "we produce transportation for amish people. And finally we produce glue, you are welcome.\n");
         }
         public void Eat()
         {
-            Console.WriteLine("Horses like me eat a lot of hay, and when the farmer isn't looking we eat his hat");
+            Console.WriteLine("Horses like me eat a lot of hay, and when the farmer isn't looking we eat his hat\n");
         }
         public void Move()
         {
-            Console.WriteLine("Horses like me run and sometime even jump over short fenses.");
+            Console.WriteLine("Horses like me run and sometime even jump over short fenses.\n");
         }
     }
 }

@@ -16,15 +16,15 @@ namespace ConsoleApp1
         public void Eat()
         {
             Console.WriteLine("Yum! I love eating grass, but sometimes I like to eat other\n" +
-                "cows. Who wants mad cow disease?!");
+                "cows. Who wants mad cow disease?!\n");
         }
         public void Produce()
         {
-            Console.WriteLine("I make milk, and that milk makes cheese so that's pretty great.");
+            Console.WriteLine("I make milk, and that milk makes cheese so that's pretty great.\n");
         }
         public void move()
         {
-            Console.WriteLine("As a cow I just mosey around, sometimes I move in a herd.");
+            Console.WriteLine("As a cow I just mosey around, sometimes I move in a herd.\n");
         }
     }
 }

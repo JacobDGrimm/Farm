@@ -19,20 +19,20 @@ namespace ConsoleApp1
             Console.WriteLine("As a chicken I produce many things, things such as eggs\n" +
                 "everyone likes eating my eggs. Chicken nuggets? You like those don't you\n" +
                 "well that's me again. Basically any food that has chicken in the title\n" +
-                "comes from us chickens.");
+                "comes from us chickens.\n");
         }
         public void Eat()
         {
             Console.WriteLine("So now you want to feed a chicken? And you are coming to me to\n" +
                 "learn what we chickens eat, huh? Well let me tell you I love grains, I love\n" +
-                "them so much I'll eat them right off the ground.");
+                "them so much I'll eat them right off the ground.\n");
         }
         public void Move()
         {
             Console.WriteLine("Chicken have wings but we don't fly. Isn't that weird, no mostly\n" +
                 "us chickens on the farm just walk every where we go. But due to being birds we\n" +
                 "bob our heads as we walk which can be quite comical but don't laugh becasue\n" +
-                "I am a great fighter...");
+                "I am a great fighter...\n");
         }
     }
 }

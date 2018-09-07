@@ -8,19 +8,42 @@ namespace ConsoleApp1
 {
     class Program
     {
+        
+
+        
         static void Main(string[] args)
         {
-                        
-                var MrEd = new Horse();
-                var ChickenJuan = new Chicken();
-                var CowBetsy = new Cow();
-                var PigBabe = new PIg();
-            
 
-            MrEd.Speak("Mr Ed");
-            ChickenJuan.Speak();
-            CowBetsy.speak();
-            PigBabe.Speak();
+            void Farm()
+            {
+                Horse MrEd = new Horse();
+                Chicken ChickenJuan = new Chicken();
+                Cow CowBetsy = new Cow();
+                PIg PigBabe = new PIg();
+
+                Console.WriteLine("All the animals on this farm are different so lets here from them starting with the horse.\n");
+                MrEd.Speak("Mr Ed");
+                MrEd.Produce();
+                MrEd.Eat();
+                MrEd.Move();
+                Console.WriteLine("Now lets here from Chicken Juan\n");
+                ChickenJuan.Speak();
+                ChickenJuan.Produce();
+                ChickenJuan.Eat();
+                ChickenJuan.Move();
+                Console.WriteLine("What about Babe the pig?\n");
+                PigBabe.Speak();
+                PigBabe.Produce();
+                PigBabe.Eat();
+                PigBabe.Move();
+                Console.WriteLine("And finally lets here from Betsy the cow.\n");
+                CowBetsy.speak();
+                CowBetsy.Produce();
+                CowBetsy.Eat();
+                CowBetsy.move();
+            }
+            Farm();
         }
+        
     }
 }

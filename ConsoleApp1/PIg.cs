@@ -15,16 +15,16 @@ namespace ConsoleApp1
         }
         public void Produce()
         {
-            Console.WriteLine("Pigs like me produce lots but all anyone ever wants to talk about is the bacon :(");
+            Console.WriteLine("Pigs like me produce lots but all anyone ever wants to talk about is the bacon :(\n");
         }
         public void Eat()
         {
             Console.WriteLine("People often ask me, they say 'hey pig! What do you want to eat?' Well let me tell\n" +
-                "you that is the beauty of being a pig. I eat everything!");
+                "you that is the beauty of being a pig. I eat everything!\n");
         }
         public void Move()
         {
-            Console.WriteLine("Pigs mostly just lay around, but I guess if I had to I could walk around on my hooves.");
+            Console.WriteLine("Pigs mostly just lay around, but I guess if I had to I could walk around on my hooves.\n");
         }
     }
 }
