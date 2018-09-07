@@ -22,5 +22,9 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Horses like me eat a lot of hay, and when the farmer isn't looking we eat his hat");
         }
+        public void Move()
+        {
+            Console.WriteLine("Horses like me run and sometime even jump over short fenses.");
+        }
     }
 }
