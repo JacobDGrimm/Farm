@@ -27,5 +27,12 @@ namespace ConsoleApp1
                 "learn what we chickens eat, huh? Well let me tell you I love grains, I love\n" +
                 "them so much I'll eat them right off the ground.");
         }
+        public void Move()
+        {
+            Console.WriteLine("Chicken have wings but we don't fly. Isn't that weird, no mostly\n" +
+                "us chickens on the farm just walk every where we go. But due to being birds we\n" +
+                "bob our heads as we walk which can be quite comical but don't laugh becasue\n" +
+                "I am a great fighter...");
+        }
     }
 }
