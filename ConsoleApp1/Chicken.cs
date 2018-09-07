@@ -21,5 +21,11 @@ namespace ConsoleApp1
                 "well that's me again. Basically any food that has chicken in the title\n" +
                 "comes from us chickens.");
         }
+        public void Eat()
+        {
+            Console.WriteLine("So now you want to feed a chicken? And you are coming to me to\n" +
+                "learn what we chickens eat, huh? Well let me tell you I love grains, I love\n" +
+                "them so much I'll eat them right off the ground.");
+        }
     }
 }
